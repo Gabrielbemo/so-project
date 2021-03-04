@@ -8,12 +8,14 @@ public class ServiceOrderEntity {
     private String serviceOrderNumber;
     private LocalDateTime createdData;
     private String serviceDescription;
+    private RequestingResponsible requestingResponsible;
     //private String vehicle;
     //private String vehicleModel;
     //private String requestingDriver;
     //private String requestingMaintenance;
     private LocalDateTime entryVehicleDate;
     private LocalDateTime requestingAutoPartsDate;
+    private Vehicle vehicle;
     //private Double odometerVehicle;
     //private String vehicleObservation;
     //private boolean waterLevelIsGood;
