@@ -1,6 +1,6 @@
 package com.lucaszamboni.so.project;
 
-public class Vehicle {
+public class VehicleEntity {
     private String licensePlate;
     private String vehicleName;
     private String vehicleModel;
