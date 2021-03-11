@@ -8,14 +8,24 @@ public class ServiceOrderEntity {
     private String serviceOrderNumber;
     private LocalDateTime createdData;
     private String serviceDescription;
+    // I see at least three fields to three different client/role
+    // the driver in - left the car and tell about car's problems
+    // the controller - authorize the maintenance and validates that was done
+    // the work secretary - authorize the service payment
     private RequestingResponsibleEntity requestingResponsible;
     //private String vehicle;
     //private String vehicleModel;
     //private String requestingDriver;
     //private String requestingMaintenance;
-    private LocalDateTime entryVehicleDate;
+
+
+    // ####  Look my observations
+    // This field belong to service order item
+    // because each item has your own Required Buy Order for Auto Parts
     private LocalDateTime requestingAutoPartsDate;
+
     private VehicleEntity vehicle;
+    private LocalDateTime entryVehicleDate;
     //private Double odometerVehicle;
     //private String vehicleObservation;
     //private boolean waterLevelIsGood;
