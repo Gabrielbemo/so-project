@@ -1,4 +1,4 @@
-package com.lucaszamboni.so.project;
+package com.soproject;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

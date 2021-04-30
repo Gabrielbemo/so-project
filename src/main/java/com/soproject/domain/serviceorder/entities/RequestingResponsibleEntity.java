@@ -1,4 +1,4 @@
-package com.lucaszamboni.so.project;
+package com.soproject.domain.serviceorder.entities;
 
 public class RequestingResponsibleEntity {
     private String requestingDriver;
