@@ -1,4 +1,4 @@
-package com.soproject.domain.serviceorder.entities;
+package com.soproject.repositories.entities;
 
 public class VehicleEntity {
     private String licensePlate;

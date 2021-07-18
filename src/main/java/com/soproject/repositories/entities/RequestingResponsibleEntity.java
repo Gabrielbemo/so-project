@@ -1,4 +1,4 @@
-package com.soproject.domain.serviceorder.entities;
+package com.soproject.repositories.entities;
 
 // This class can be converted to a kind client class
 // Because has a public driver that can do two actions
